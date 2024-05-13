@@ -39,7 +39,7 @@ export const activityReducer = (
     return {
       ...state,
       activities: updatedActivities,
-      aciveID: "",
+      activeID: "",
     };
   }
 
