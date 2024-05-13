@@ -56,6 +56,7 @@ export const activityReducer = (
       activities: state.activities.filter(
         (activity) => activity.id !== action.payload.id
       ),
+      activeID: ''
     };
   }
 
